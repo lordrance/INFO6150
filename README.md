@@ -1,1 +1,1 @@
-# rance1
+# INFO6150 Assignment
