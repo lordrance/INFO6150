@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multiplication Calculation</title>
+</head>
+<body>
+    <nav>
+        <a href="addition.html">Addition Calculation</a>
+    </nav>
+
+    <header>
+        <h1>Multiplication Calculation</h1>
+    </header>
+
+    <main>
+        <p>Multiplication is a mathematical operation that multiplies two numbers to get their product.</p>
+        <input type="number" id="multNum1" placeholder="Enter the first number">
+        <input type="number" id="multNum2" placeholder="Enter the second number">
+        <button onclick="calculateMultiplication()">Calculate</button>
+        <p id="multResult"></p>
+    </main>
+
+    <footer>
+        <p>Math Website</p>
+    </footer>
+
+    <script>
+        function calculateMultiplication() {
+            var num1 = parseFloat(document.getElementById('multNum1').value);
+            var num2 = parseFloat(document.getElementById('multNum2').value);
+            var result = num1 * num2;
+            document.getElementById('multResult').innerText = 'Result: ' + result;
+        }
+    </script>
+</body>
+</html>
