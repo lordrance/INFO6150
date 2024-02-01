@@ -1,0 +1,42 @@
+
+website map
+
+Homepage
+  Latest News and Announcements
+
+About the Library
+  Address and Opening Hours
+  Contact Information
+
+Library Services
+  Library Card Registration Form
+
+Book Catalog
+  Search and Filters
+  Individual Book Pages
+
+Contact and Support
+  General Inquiry Email Address
+
+Footer
+  Quick Links
+  Accessibility and Site Map
+
+[ Book Catalog Page ] ---> [ Select Book ] ---> [ Book Details Page ]
+        ^                          |                        |
+        |                          +---- [ Reserve Book ] <----+
+        |                                                  |
+        +-------------------- [ Confirm Reservation ] <----+
+
+
+
+
+
+1.How should users navigate between pages?
+Top Navigation Bar: A consistent top navigation bar across all pages for quick access to main sections like Home, Catalog, Services, and Contact.
+Search Bar: A site-wide search bar for direct access to specific books or information.
+Footer Links: Additional links in the footer for auxiliary pages and resources.
+
+2.How will it be possible to find a specific book? Think of all possible alternatives and select at least two. Justify your choices.
+Search Function: Users can use a search bar to find books by title, author, or keywords. This is efficient for users who know what they are looking for.
+Filters and Sorting: In the book catalog, provide filters (genre, author, availability) and sorting options (new arrivals, popularity) to help users explore and find books. It saves time and improves the user experience by offering direct access to book information.
