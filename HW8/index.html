@@ -1,0 +1,47 @@
+<!--
+ * @Author: uyrance uyrance@hotmal.com
+ * @Date: 2024-03-22 18:58:54
+ * @LastEditors: uyrance uyrance@hotmal.com
+ * @LastEditTime: 2024-03-22 18:59:08
+ * @FilePath: \INFO6150\HW8\index.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="registrationForm">
+        <label for="name">Name (at least 3 characters):</label>
+        <input type="text" id="name" required minlength="3">
+
+        <label for="yearOfBirth">Year of Birth (1900-2100):</label>
+        <input type="number" id="yearOfBirth" required min="1900" max="2100">
+
+        <label><input type="checkbox" id="usResident"> Do you live in the United States?</label>
+
+        <label for="zipcode" id="zipcodeLabel" style="display: none;">Zipcode (5 digits):</label>
+        <input type="number" id="zipcode" style="display: none;" min="10000" max="99999">
+
+        <label for="password">Password (at least 8 characters):</label>
+        <input type="password" id="password" required minlength="8">
+
+        <fieldset>
+            <legend>Preferred type of pizza (required):</legend>
+            <label><input type="radio" name="pizzaPreference" value="With pineapple" required> With pineapple</label>
+            <label><input type="radio" name="pizzaPreference" value="Without pineapple"> Without pineapple</label>
+            <label><input type="radio" name="pizzaPreference" value="I do not like pizza"> I do not like pizza</label>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+        <div id="errorMessages"></div>
+        <div id="successMessage" style="display: none;">Accepted</div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
