@@ -1,0 +1,25 @@
+/*
+ * @Author: uyrance uyrance@hotmal.com
+ * @Date: 2024-04-11 23:41:20
+ * @LastEditors: uyrance uyrance@hotmal.com
+ * @LastEditTime: 2024-04-11 23:42:03
+ * @FilePath: \INFO6150\HW9\styles.css
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#jokeDisplay {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
